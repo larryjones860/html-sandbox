@@ -1,66 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
+<html>
+<body>
 
-		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
-		Remove this if you use the .htaccess -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<div id="container" style="width:510px">
 
-		<title>new_file</title>
-		<meta name="description" content="" />
-		<meta name="author" content="Larry Jones" />
+<div id="header" style="background-color:#000000;">
+<h1 style="margin-bottom:0;text-align:center;">
+<span style="color:#64bb5a">Rudolf</span></h1></div>
 
-		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+<div id="menu" style="background-color:#64bb5a;height:200px;width:110px;float:left;">
+<button type="button" onclick="myFunction()">Home</button>
+</br>
+<button type="button" onclick="myFunction2()">Tools</button>
+</br>
+<button type="button" onclick="myFunction3()">Blog</button>
+</br>
+<button type="button" onclick="myFunction4()">Bioinformatics</button>
+</br>
+<button type="button" onclick="myFunction5()">Global-Media</button>
+</br>
+<button type="button" onclick="myFunction6()">Community</button>
+</br>
+<button type="button" onclick="myFunction7()">Publication</button>
+</br>
+<button type="button" onclick="myFunction8()">Collaborates</button>
+<script type="text/javascript">
+function myFunction()
+{
+document.getElementById("content").innerHTML="Home content";
+}
+function myFunction2()
+{
+document.getElementById("content").innerHTML="Tools content";
+}
+function myFunction3()
+{
+document.getElementById("content").innerHTML="Blog content";
+}
+function myFunction4()
+{
+document.getElementById("content").innerHTML="Bioinformtatics content";
+}
+function myFunction5()
+{
+document.getElementById("content").innerHTML="Global-Media content";
+}
+function myFunction6()
+{
+document.getElementById("content").innerHTML="Community content";
+}
+function myFunction7()
+{
+document.getElementById("content").innerHTML="Publication content";
+}
+function myFunction8()
+{
+document.getElementById("content").innerHTML="Collaborates content";
+}
+</script>
+</div>
 
-		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-		<link rel="shortcut icon" href="/favicon.ico" />
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-	</head>
-	<header>
-			<div id="h1"style="background-color: #00ff00;">
-			<h1 style="text-align:center;">Rudolf</h1></div>
-			
-			</header>
-			<body>
-				<div id="p" style="background-color: #FFD700;height: 800.0PX;width: 725.0px;float: left;">
-			<nav>
-				<p>
-					<a href="/Home">Home</a>
-				</p>
-				<p>
-					<a href="/Tools">Tools</a>
-				</p>
-				<p>
-					<a href="/Blog">Blog</a>
-				</p>
-				<p>
-					<a href="/Bioinformatics">Bioinformatics</a>
-				</p>
-				<p>
-					<a href="/Global Media">Global Media</a>
-				</p>
-				<p>
-					<a href="/Community">Community</a>
-				</p>
-				<p>
-					<a href="/Publication">Publication</a>
-				</p>
-				<p>
-					<a href="/collaborates">Collaborates</a>
-				</p>
-			</nav>
-			</div>
+<div id="content" style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
+Content goes here</div>
 
-			<div>
+<div id="footer" style="background-color:#000000;clear:both;text-align:center;">
+<span style="color:#64bb5a">Copyright © Rudolf</span></div>
 
-			</div>
-
-			<footer>
-				<p>
-					&copy; Copyright  by Larry Jones
-				</p>
-			</footer>
-		</div>
-	</body>
+</div>
+ 
+</body>
 </html>
